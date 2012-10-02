@@ -20,7 +20,7 @@ db = {}
 i = 0
 with open(path, 'r') as f:
     dt = r"\[(Mon|Tue|Wed|Thu|Fri|Sat|Sun) ((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [ 1-3]\d) [0-2]\d:[0-5]\d:[0-5]\d ([1-2]\d{3})\] "
-    nm = r"( TRADER)?( AFK )?( <LINKDEAD>)?\[(ANONYMOUS|[1-6]?\d [ A-Za-z]+)\] ([A-Z][a-z]*) (\([ A-Za-z]+\))?( <[ A-Za-z]+>)?( LFG)?"
+    nm = r"( TRADER)?( AFK )?( <LINKDEAD>)?\[(ANONYMOUS|[1-6]?\d [ A-Za-z]+)\] ([A-Z][a-z]*) (\([ A-Za-z]+\))?( <[ A-Z`a-z]+>)?( LFG)?"
     ct = r"There (is|are) \d+ players? in .+\."
     fl = "T123456789abcdefghijklmnopqrstuvwxyz"
     yr = date.strftime("%Y")
